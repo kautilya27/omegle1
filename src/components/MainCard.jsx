@@ -19,7 +19,8 @@ function MainCard() {
         Meet strangers with your interests!
       </h2>
       <div style={{ color: "#464b5a", textAlign: "left", marginBottom: 18 }}>
-        Omegle (oh<sup>`</sup>meg<sup>`</sup>ull) Online is a great way to meet new friends. When you use Omegle Online, you are paired randomly with another person to talk one-on-one. If you prefer, you can add your interests and you'll be randomly paired with someone who selected some of the same interests.  To help you stay safe, chats are anonymous unless you tell someone who you are (not recommended!), and you can stop a chat at any time. See our <a href="#" style={{ color: "#68a8f5", textDecoration: "underline" }}>Terms of Service</a> and <a href="#" style={{ color: "#68a8f5", textDecoration: "underline" }}>Community Guidelines</a>.
+        Omegle (oh-meg-ull) is a great way to meet new friends. When you use Omegle, we pick someone else at random and let you talk one-on-one. To help you stay safe, chats are anonymous unless you tell someone who you are (not suggested!), and you can stop a chat at any time. Predators have been known to use Omegle, so please be careful.
+If you prefer, you can add your interests, and Omegle will look for someone who's into some of the same things as you instead of someone completely random.
       </div>
       <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
         <button style={{
