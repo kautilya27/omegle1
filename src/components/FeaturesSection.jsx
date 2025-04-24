@@ -25,17 +25,14 @@ function FeaturesSection() {
       display:'flex',justifyContent:'center',alignItems:'stretch',gap:'18px',margin:'36px auto 34px',maxWidth:1010
     }}>
       <FeatureTile
-        iconUrl="https://ext.same-assets.com/2180202029/2457888870.png"
         title="Secured Environment"
         desc="Experience a meticulously designed environment where your security is our top priority. We use advanced screening measures to ensure smooth, worry-free interactions, giving you peace of mind as you connect."
       />
       <FeatureTile
-        iconUrl="https://ext.same-assets.com/2180202029/3444975469.png"
         title="Fast Connections"
         desc="Jump into exciting conversations with our ultra-efficient matching system. Designed to minimize wait times and enhance your chat experience, our system is known for its speed and ease, setting us apart from other platforms."
       />
       <FeatureTile
-        iconUrl="https://ext.same-assets.com/2180202029/837165702.png"
         title="Global Reach"
         desc="Connect with a diverse, international community on our platform. Embrace a global perspective as you interact with users from around the world, expanding your network and enriching your experience beyond borders."
       />
