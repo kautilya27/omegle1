@@ -19,7 +19,7 @@ function MainCard() {
       Omegle (oh-meg-ull) is a great way to meet new friends. When you use Omegle, we pick someone else at random and let you talk one-on-one. To help you stay safe, chats are anonymous unless you tell someone who you are (not suggested!), and you can stop a chat at any time. Predators have been known to use Omegle, so please be careful.
       </div>
 
-      </div> 
+      <div> 
       If you prefer, you can add your interests, and Omegle will look for someone who's into some of the same things as you instead of someone completely random.
       </div>
       <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
@@ -34,9 +34,6 @@ function MainCard() {
           boxShadow: "0 8px 24px #cdf1ff50",
           cursor: "pointer"
         }}>Video</button>
-      </div>
-      <div style={{ background: "#eaf3fc", padding: '10px 10px 8px 10px', borderRadius: 8, marginTop: 20, textAlign: "center", border: "1px solid #dde8f2" }}>
-        <img src="https://ext.same-assets.com/2180202029/3907936530.png" alt="Omegle logo mini" style={{ height: 18, verticalAlign:'middle', marginRight:7 }} />
       </div>
       <footer style={{ color: '#aaa', fontSize: 14, textAlign: 'center', marginTop: 14 }}>
         © 2025 Omegle Online · <a href="#" style={{ color: '#aaa' }}>Terms of Service</a> · <a href="#" style={{ color: '#aaa' }}>Privacy Policy</a> · <a href="#" style={{ color: '#aaa' }}>Community Guidelines</a>
