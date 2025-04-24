@@ -20,7 +20,7 @@ function Header() {
           style={{ height: 32 }}
         />
         <span style={{ fontWeight: 600, fontSize: 20, color: "#d2874f", letterSpacing: 1 }}>
-          Omegle
+          Online
         </span>
         <span style={{ marginLeft: 10, fontSize: 17, color: "#464b5a", fontWeight: 400 }}>
           Talk to strangers!
