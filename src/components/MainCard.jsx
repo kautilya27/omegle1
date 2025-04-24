@@ -35,6 +35,19 @@ function MainCard() {
           cursor: "pointer"
         }}>Video</button>
       </div>
+      <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
+        <button style={{
+          background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
+          color: "#fff",
+          fontSize: 19,
+          fontWeight: 700,
+          border: 0,
+          borderRadius: 6,
+          padding: "11px 55px",
+          boxShadow: "0 8px 24px #cdf1ff50",
+          cursor: "pointer"
+        }}>Text</button>
+      </div>
       <footer style={{ color: '#aaa', fontSize: 14, textAlign: 'center', marginTop: 14 }}>
         © 2025 Omegle Online · <a href="#" style={{ color: '#aaa' }}>Terms of Service</a> · <a href="#" style={{ color: '#aaa' }}>Privacy Policy</a> · <a href="#" style={{ color: '#aaa' }}>Community Guidelines</a>
       </footer>
