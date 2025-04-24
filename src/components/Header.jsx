@@ -16,7 +16,7 @@ function Header() {
       <div style={{ display: "flex", alignItems: "center", gap: "8px", marginLeft: 20 }}>
         <img
           src="https://ext.same-assets.com/2180202029/3907936530.png"
-          alt="Omegle Logo"
+          alt="Omegle Online Logo"
           style={{ height: 32 }}
         />
         <span style={{ fontWeight: 600, fontSize: 20, color: "#d2874f", letterSpacing: 1 }}>
@@ -28,7 +28,7 @@ function Header() {
       </div>
       <div style={{ display: "flex", alignItems: "center", marginRight: 20 }}>
         <span style={{ color: "#68a8f5", fontWeight: 500, fontSize: 16, marginRight: 18 }}>
-          36341 Online Now
+          69071 Online Now
         </span>
         <button
           style={{
