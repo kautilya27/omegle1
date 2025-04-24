@@ -10,7 +10,7 @@ const faqs = [
     a: "A 24/7 moderation system is dedicated to ensure user safety and create a secure environment for interactions."
   },
   {
-    q: "Can I use Omegle on a global scale?",
+    q: "Can I use Omegle Online on a global scale?",
     a: "Definitely, this platform allow users to make new friends around the world, experience different cultures and meet people from different walks of life."
   },
   {
