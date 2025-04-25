@@ -19,7 +19,7 @@ function Header() {
           alt="Omegle Online Logo"
           style={{ height: 32 }}
         />
-        <span style={{ fontWeight: 600, fontSize: 20, color: "#d2874f", letterSpacing: 1 }}>
+        <span style={{ fontWeight: 600, fontSize: 10, color: "#d2874f", letterSpacing: 1 }}>
           Online
         </span>
         <span style={{ marginLeft: 10, fontSize: 17, color: "#464b5a", fontWeight: 400 }}>
