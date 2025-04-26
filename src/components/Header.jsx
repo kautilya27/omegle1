@@ -46,21 +46,47 @@ function Header() {
             Online
           </span>
         </div>
-        <span
+        <div
           style={{
-            fontSize: 20,
-            color: "#464b5a",
-            fontWeight: 700,
-            transform: "rotate(-5deg)",
-            display: "inline-block",
-            lineHeight: 1.2,
-            marginTop: 6,
-            marginLeft: 20,
-            whiteSpace: "nowrap", // forces it to stay in one line
+            display: "flex",
+            alignItems: "center",
+            gap: "12px",
+            marginLeft: 20, // Adjust to control spacing between "Talk to strangers" and "online now"
           }}
         >
-          Talk to strangers!
-        </span>
+          <span
+            style={{
+              fontSize: 20,
+              color: "#464b5a",
+              fontWeight: 700,
+              transform: "rotate(-5deg)",
+              display: "inline-block",
+              lineHeight: 1.2,
+              whiteSpace: "nowrap", // forces it to stay in one line
+            }}
+          >
+            Talk to strangers!
+          </span>
+          <span
+            style={{
+              fontWeight: 700,
+              fontSize: 26,
+              color: "#68a8f5",
+              marginRight: 5,
+            }}
+          >
+            10,000+
+          </span>
+          <span
+            style={{
+              color: "#68a8f5",
+              fontWeight: 500,
+              fontSize: 16,
+            }}
+          >
+            online now
+          </span>
+        </div>
       </div>
       <div
         style={{
@@ -71,25 +97,6 @@ function Header() {
           flexWrap: "wrap",
         }}
       >
-        <span
-          style={{
-            fontWeight: 700, // Added heavier weight for emphasis
-            fontSize: 26, // Increased font size for "10000+" part
-            color: "#68a8f5",
-            marginRight: 5,
-          }}
-        >
-          10,000+
-        </span>
-        <span
-          style={{
-            color: "#68a8f5",
-            fontWeight: 500,
-            fontSize: 16,
-          }}
-        >
-          online now
-        </span>
         <button
           style={{
             background: "#f9f6f2",
@@ -101,7 +108,7 @@ function Header() {
             fontSize: 15,
             cursor: "pointer",
             boxShadow: "0 2px 9px -7px #444",
-            marginLeft: "12px", // Added margin to create space between the button and the text
+            marginLeft: "12px",
           }}
         >
           Log in
