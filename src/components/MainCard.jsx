@@ -53,6 +53,20 @@ function MainCard() {
         By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
       </div>
 
+      {/* ADD the new banner here */}
+      <div style={{ textAlign: "center", marginBottom: 20 }}>
+        <img
+          src="/61b020ac-d4ce-41a6-a038-9ae348b3de13.png"
+          alt="Video is monitored. Keep it clean!"
+          style={{
+            maxWidth: "100%",
+            backgroundColor: "#e7f0fb",
+            borderRadius: 8,
+            padding: "6px 12px"
+          }}
+        />
+      </div>
+
       {/* Text above buttons */}
       <div style={{ textAlign: "center", marginTop: 10, fontSize: "18px", fontWeight: 600 }}>
         Start chatting:
