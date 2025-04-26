@@ -14,10 +14,12 @@ function FeatureTile({ title, desc, iconUrl }) {
       display: 'flex',
       flexDirection: 'column', // Stack content vertically
       justifyContent: 'flex-start', // Ensure everything is aligned to the top
+      position: 'relative', // Ensure proper positioning of children
+      outline: '1px solid red'  // Temporary outline to check for any unexpected space
     }}>
       {/* Icon section */}
-      <div style={{ height: 48, marginBottom: 6 }}>
-        {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42 }} />}
+      <div style={{ height: 48, marginBottom: 6, outline: '1px solid blue' }}>
+        {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42, display: 'block', margin: 0 }} />}
       </div>
 
       {/* Title with no margin or padding above */}
@@ -28,6 +30,8 @@ function FeatureTile({ title, desc, iconUrl }) {
         marginTop: '0', // Removed any margin-top to eliminate space
         marginBottom: '6px', // Small space below the title
         paddingTop: '0', // Removed padding above the title
+        lineHeight: '1', // Ensure line-height doesn't cause unnecessary space
+        outline: '1px solid green' // Temporary outline to check the title's position
       }}>
         {title}
       </h2>
