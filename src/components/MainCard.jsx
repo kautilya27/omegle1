@@ -1,4 +1,4 @@
-import React from "react";
+leimport React from "react";
 
 function MainCard() {
   return (
@@ -14,7 +14,7 @@ function MainCard() {
     }}>
       <div style={{ textAlign: "center", marginBottom: 20 }}>
         <img
-          src="/ChatGPT Image Apr 25, 2025, 12_15_53 PM.png"
+          src="/people video calling.webp"
           alt="Video call illustration"
           style={{ maxWidth: "100%", borderRadius: 8 }}
         />
