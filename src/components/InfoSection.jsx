@@ -12,7 +12,7 @@ function InfoSection() {
       textAlign: 'center'
     }}>
       <h1 style={{ fontSize: 26, fontWeight: "700", marginBottom: 10, color: 'black' }}>
-        Omegle Video Chat With Strangers
+        Omegle Online: Video Chat With Strangers
       </h1>
 
       {/* NEW CONTENT STARTS HERE */}
