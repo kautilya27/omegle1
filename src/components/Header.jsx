@@ -54,24 +54,13 @@ function Header() {
           >
             Online
           </span>
-          <span
-            style={{
-              fontSize: 20,
-              color: "#464b5a",
-              fontWeight: 700,
-              transform: "rotate(-5deg)",
-              display: "inline-block",
-              lineHeight: 1.2,
-              whiteSpace: "nowrap", // forces it to stay in one line
-            }}
-          >
-            Talk to strangers!
-          </span>
         </div>
       </div>
+
       <div
         style={{
           display: "flex",
+          justifyContent: "flex-end", // Aligns "Talk to strangers!" to the right
           alignItems: "center",
           marginRight: 20,
           marginTop: 8,
@@ -80,8 +69,23 @@ function Header() {
       >
         <span
           style={{
-            fontWeight: 700, // Added heavier weight for emphasis
-            fontSize: 26, // Increased font size for "10000+" part
+            fontSize: 20,
+            color: "#464b5a",
+            fontWeight: 700,
+            transform: "rotate(-5deg)",
+            display: "inline-block",
+            lineHeight: 1.2,
+            whiteSpace: "nowrap", // forces it to stay in one line
+            marginRight: 20, // Added some space between "Talk to strangers!" and "10000+" section
+          }}
+        >
+          Talk to strangers!
+        </span>
+
+        <span
+          style={{
+            fontWeight: 700,
+            fontSize: 26,
             color: "#68a8f5",
             marginRight: 5,
           }}
@@ -97,6 +101,7 @@ function Header() {
         >
           online now
         </span>
+
         <button
           style={{
             background: "#f9f6f2",
