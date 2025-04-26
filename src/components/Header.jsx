@@ -55,8 +55,8 @@ function Header() {
             display: "inline-block",
             lineHeight: 1.2,
             maxWidth: 160,
-            marginTop: 8,
-            marginLeft: 24, // shifted more to right
+            marginTop: 6,
+            marginLeft: 16, // shifted more to right
           }}
         >
           Talk to strangers!
