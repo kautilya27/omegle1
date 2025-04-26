@@ -59,7 +59,7 @@ function MainCard() {
       </div>
 
       {/* Buttons with "or" text in between */}
-      <div style={{ display: "flex", justifyContent: "center", gap: "10px", marginTop: 14 }}>
+      <div style={{ textAlign: "center", marginTop: 14 }}>
         <button
           style={{
             background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
@@ -71,15 +71,22 @@ function MainCard() {
             padding: "11px 55px",
             boxShadow: "0 8px 24px #cdf1ff50",
             cursor: "pointer",
+            marginRight: "15px",
           }}
         >
           Video
         </button>
-
-        <span style={{ fontSize: "18px", fontWeight: 600, color: "#000", marginTop: "10px" }}>
+        <span
+          style={{
+            fontSize: "18px",
+            fontWeight: 600,
+            color: "#000",
+            marginTop: "10px",
+            verticalAlign: "middle",
+          }}
+        >
           or
         </span>
-
         <button
           style={{
             background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
@@ -91,6 +98,7 @@ function MainCard() {
             padding: "11px 55px",
             boxShadow: "0 8px 24px #cdf1ff50",
             cursor: "pointer",
+            marginLeft: "15px",
           }}
         >
           Text
