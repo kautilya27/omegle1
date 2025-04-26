@@ -37,7 +37,7 @@ function FeaturesSection() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'stretch',
-      gap: '18px',
+      gap: '4px',
       margin: '36px auto 34px',
       maxWidth: 1010
     }}>
