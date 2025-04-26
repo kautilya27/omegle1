@@ -4,7 +4,7 @@ function MainCard() {
   return (
     <section
       style={{
-        maxWidth: 520,
+        maxWidth: 700,
         margin: "32px auto 24px auto",
         background: "#fff",
         borderRadius: 12,
