@@ -9,7 +9,7 @@ function Header() {
         justifyContent: "space-between",
         background: "#fff",
         padding: "10px 0",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Added shadow here
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
         borderBottom: "1px solid #f0f0f0",
         flexWrap: "wrap",
       }}
@@ -100,7 +100,8 @@ function Header() {
             borderRadius: 5,
             fontSize: 15,
             cursor: "pointer",
-            boxShadow: "0 2px 9px -7px #444", // This shadow is for the button
+            boxShadow: "0 2px 9px -7px #444",
+            marginLeft: "12px", // Added margin to create space between the button and the text
           }}
         >
           Log in
