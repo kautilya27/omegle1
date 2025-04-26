@@ -74,7 +74,7 @@ function Header() {
         <span
           style={{
             fontWeight: 700, // Added heavier weight for emphasis
-            fontSize: 18, // Increased font size for "10000+" part
+            fontSize: 26, // Increased font size for "10000+" part
             color: "#68a8f5",
             marginRight: 5,
           }}
@@ -85,7 +85,7 @@ function Header() {
           style={{
             color: "#68a8f5",
             fontWeight: 500,
-            fontSize: 24,
+            fontSize: 16,
           }}
         >
           online now
