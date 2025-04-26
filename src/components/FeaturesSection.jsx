@@ -4,47 +4,39 @@ function FeatureTile({ title, desc, iconUrl }) {
   return (
     <article style={{
       background: '#fff',
-      borderRadius: '50%', // This makes the box circular
-      padding: '22px', // Adjusted padding to create a circular layout
+      borderRadius: 14,
+      padding: '22px 13px 19px',  // Adjusted padding for content spacing
       minWidth: 220,
-      maxWidth: 220, // Adjusted to ensure the box is round
+      maxWidth: 325,
       boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
       textAlign: 'center',
       margin: '0 8px',
       display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center', // Center content vertically
-      alignItems: 'center', // Center content horizontally
+      flexDirection: 'column', // Stack content vertically
+      justifyContent: 'flex-start', // Align everything to the top
       position: 'relative',
     }}>
       {/* Icon section */}
       <div style={{ height: 48, marginBottom: 6 }}>
-        {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42, width: 42, display: 'block', margin: 0, borderRadius: '50%' }} />}
+        {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42, display: 'block', margin: 0 }} />}
       </div>
 
-      {/* Title with no margin or padding above */}
+      {/* Title with equal space above and below */}
       <h2 style={{
-        color: '#000',
+        color: '#000',   // Title color set to black
         fontWeight: 700,
-        fontSize: 22,
-        marginTop: 0,
-        marginBottom: '6px',
-        paddingTop: 0,
-        lineHeight: '1',
-        textAlign: 'center', // Ensure title is centered
+        fontSize: 22, // Increased font size
+        marginTop: '10px', // Added space above the title
+        marginBottom: '10px', // Added space below the title for balance
+        paddingTop: 0, // Removed padding above the title
+        paddingBottom: 0, // Ensured no extra space below the title
+        lineHeight: '1', // Ensure line-height doesn't cause unnecessary space
       }}>
         {title}
       </h2>
 
       {/* Description */}
-      <span style={{
-        color: '#464b5a',
-        fontSize: 15,
-        textAlign: 'center', // Center description text
-        marginTop: 10,
-      }}>
-        {desc}
-      </span>
+      <span style={{ color: '#464b5a', fontSize: 15 }}>{desc}</span>
     </article>
   );
 }
@@ -57,7 +49,7 @@ function FeaturesSection() {
       alignItems: 'stretch',
       gap: '18px',
       margin: '36px auto 34px',
-      maxWidth: 1010,
+      maxWidth: 1010
     }}>
       {/* Feature 1 */}
       <FeatureTile
