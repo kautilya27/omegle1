@@ -8,11 +8,11 @@ function Header() {
         alignItems: "center",
         justifyContent: "space-between",
         background: "#fff",
-        padding: "10px 0",
+        padding: "6px 0", // Reduced the padding to make the header smaller
         boxShadow: "0 1px 4px rgba(0,0,0,0.03)",
         borderBottom: "1px solid #f0f0f0",
         flexWrap: "wrap",
-        maxHeight: "80px", // Set max height to prevent the header from becoming too big
+        height: "60px", // Set a fixed height for the header
       }}
     >
       <div
@@ -34,12 +34,12 @@ function Header() {
           <img
             src="https://ext.same-assets.com/2180202029/3907936530.png"
             alt="Omegle Online Logo"
-            style={{ height: 42 }}
+            style={{ height: 36 }} // Slightly reduced logo size
           />
           <span
             style={{
               fontWeight: 600,
-              fontSize: 10,
+              fontSize: 9, // Reduced font size
               color: "#d2874f",
               letterSpacing: 1,
             }}
@@ -49,7 +49,7 @@ function Header() {
         </div>
         <span
           style={{
-            fontSize: 20,
+            fontSize: 18, // Reduced font size
             color: "#464b5a",
             fontWeight: 700,
             transform: "rotate(-5deg)",
@@ -69,7 +69,7 @@ function Header() {
           alignItems: "center",
           marginRight: 20,
           marginTop: 8,
-          flexDirection: "column", // Stacks the button above the text
+          flexDirection: "column", // Stacking the login button and text vertically
           alignItems: "flex-end", // Align everything to the right
         }}
       >
@@ -79,12 +79,12 @@ function Header() {
             color: "#92634d",
             fontWeight: 500,
             border: "1px solid #dbc9b8",
-            padding: "7px 20px",
+            padding: "6px 18px", // Reduced padding for a smaller button
             borderRadius: 5,
-            fontSize: 15,
+            fontSize: 14, // Reduced font size
             cursor: "pointer",
             boxShadow: "0 2px 9px -7px #444",
-            marginBottom: 8, // Spacing between button and text
+            marginBottom: 6, // Reduced margin for closer alignment
           }}
         >
           Log in
@@ -92,8 +92,8 @@ function Header() {
         <div style={{ display: "flex", alignItems: "center" }}>
           <span
             style={{
-              fontWeight: 700, // Heavier weight for emphasis
-              fontSize: 26, // Increased font size for "10,000+" part
+              fontWeight: 700, // Added heavier weight for emphasis
+              fontSize: 22, // Reduced font size for "10,000+" part
               color: "#68a8f5",
               marginRight: 5,
             }}
@@ -104,7 +104,7 @@ function Header() {
             style={{
               color: "#68a8f5",
               fontWeight: 500,
-              fontSize: 16,
+              fontSize: 14, // Reduced font size
             }}
           >
             online now
