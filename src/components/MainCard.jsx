@@ -97,10 +97,13 @@ function MainCard() {
         </button>
       </div>
 
-      {/* New texts below buttons */}
+      {/* New texts below respective buttons */}
       <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", color: "#000" }}>
-        <div>Spy (question) mode</div>
-        <div>Unmoderated section</div>
+        {/* "Unmoderated section" below video button */}
+        <div style={{ marginTop: 10 }}>Unmoderated section</div>
+
+        {/* "Spy (question) mode" below text button */}
+        <div style={{ marginTop: 10 }}>Spy (question) mode</div>
       </div>
 
       {/* Footer */}
