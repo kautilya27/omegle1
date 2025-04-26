@@ -53,9 +53,6 @@ function InfoSection() {
       </p>
       {/* NEW CONTENT ENDS HERE */}
 
-      <h3 style={{ fontSize: 19, fontWeight: 600, marginTop: 32 }}>
-        Meet Strangers Now
-      </h3>
       <div style={{
         width: '100%',
         textAlign: 'center',
