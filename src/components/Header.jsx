@@ -36,7 +36,7 @@ function Header() {
               color: "#d2874f",
               letterSpacing: 1,
               position: "relative",
-              top: 4, // 👉 move "Online" slightly lower
+              top: 8, // 👉 move "Online" slightly lower
             }}
           >
             Online
