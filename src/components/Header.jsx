@@ -56,7 +56,7 @@ function Header() {
             lineHeight: 1.2,
             marginTop: 6,
             marginLeft: 20,
-            whiteSpace: "nowrap", // 👉 forces it to stay in one line
+            whiteSpace: "nowrap", // forces it to stay in one line
           }}
         >
           Talk to strangers!
@@ -73,13 +73,22 @@ function Header() {
       >
         <span
           style={{
+            fontWeight: 700, // Added heavier weight for emphasis
+            fontSize: 18, // Increased font size for "10000+" part
+            color: "#68a8f5",
+            marginRight: 5,
+          }}
+        >
+          10000+
+        </span>
+        <span
+          style={{
             color: "#68a8f5",
             fontWeight: 500,
             fontSize: 16,
-            marginRight: 18,
           }}
         >
-          69071 Online Now
+          Online Now
         </span>
         <button
           style={{
