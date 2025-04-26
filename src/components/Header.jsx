@@ -48,15 +48,15 @@ function Header() {
         </div>
         <span
           style={{
-            fontSize: 18,
+            fontSize: 20,
             color: "#464b5a",
             fontWeight: 700,
-            transform: "rotate(-10deg)",
+            transform: "rotate(-5deg)",
             display: "inline-block",
             lineHeight: 1.2,
             maxWidth: 160,
-            marginTop: 6,
-            marginLeft: 16, // shifted more to right
+            marginTop: 5,
+            marginLeft: 20, // shifted more to right
           }}
         >
           Talk to strangers!
