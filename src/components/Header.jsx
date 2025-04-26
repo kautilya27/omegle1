@@ -8,11 +8,10 @@ function Header() {
         alignItems: "center",
         justifyContent: "space-between",
         background: "#fff",
-        padding: "6px 0", // Reduced the padding to make the header smaller
+        padding: "10px 0",
         boxShadow: "0 1px 4px rgba(0,0,0,0.03)",
         borderBottom: "1px solid #f0f0f0",
         flexWrap: "wrap",
-        height: "60px", // Set a fixed height for the header
       }}
     >
       <div
@@ -34,12 +33,12 @@ function Header() {
           <img
             src="https://ext.same-assets.com/2180202029/3907936530.png"
             alt="Omegle Online Logo"
-            style={{ height: 36 }} // Slightly reduced logo size
+            style={{ height: 42 }}
           />
           <span
             style={{
               fontWeight: 600,
-              fontSize: 9, // Reduced font size
+              fontSize: 10,
               color: "#d2874f",
               letterSpacing: 1,
             }}
@@ -49,7 +48,7 @@ function Header() {
         </div>
         <span
           style={{
-            fontSize: 18, // Reduced font size
+            fontSize: 20,
             color: "#464b5a",
             fontWeight: 700,
             transform: "rotate(-5deg)",
@@ -69,47 +68,43 @@ function Header() {
           alignItems: "center",
           marginRight: 20,
           marginTop: 8,
-          flexDirection: "column", // Stacking the login button and text vertically
-          alignItems: "flex-end", // Align everything to the right
+          flexWrap: "wrap",
         }}
       >
+        <span
+          style={{
+            fontWeight: 700, // Added heavier weight for emphasis
+            fontSize: 26, // Increased font size for "10000+" part
+            color: "#68a8f5",
+            marginRight: 5,
+          }}
+        >
+          10,000+
+        </span>
+        <span
+          style={{
+            color: "#68a8f5",
+            fontWeight: 500,
+            fontSize: 16,
+          }}
+        >
+          online now
+        </span>
         <button
           style={{
             background: "#f9f6f2",
             color: "#92634d",
             fontWeight: 500,
             border: "1px solid #dbc9b8",
-            padding: "6px 18px", // Reduced padding for a smaller button
+            padding: "7px 20px",
             borderRadius: 5,
-            fontSize: 14, // Reduced font size
+            fontSize: 15,
             cursor: "pointer",
             boxShadow: "0 2px 9px -7px #444",
-            marginBottom: 6, // Reduced margin for closer alignment
           }}
         >
           Log in
         </button>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <span
-            style={{
-              fontWeight: 700, // Added heavier weight for emphasis
-              fontSize: 22, // Reduced font size for "10,000+" part
-              color: "#68a8f5",
-              marginRight: 5,
-            }}
-          >
-            10,000+
-          </span>
-          <span
-            style={{
-              color: "#68a8f5",
-              fontWeight: 500,
-              fontSize: 14, // Reduced font size
-            }}
-          >
-            online now
-          </span>
-        </div>
       </div>
     </header>
   );
