@@ -53,19 +53,22 @@ function MainCard() {
         By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
       </div>
 
-      {/* ADD the new banner here */}
-      <div style={{ textAlign: "center", marginBottom: 20 }}>
-        <img
-          src="/61b020ac-d4ce-41a6-a038-9ae348b3de13.png"
-          alt="Video is monitored. Keep it clean!"
-          style={{
-            maxWidth: "100%",
-            backgroundColor: "#e7f0fb",
-            borderRadius: 8,
-            padding: "6px 12px"
-          }}
-        />
-      </div>
+      <div style={{
+  backgroundColor: '#d9ebff',
+  borderRadius: 8,
+  padding: '10px 16px',
+  fontSize: 16,
+  color: '#222',
+  marginBottom: 20,
+  textAlign: 'center',
+  boxShadow: '0px 1px 5px rgba(0, 0, 0, 0.1)'
+}}>
+  <strong>Video is monitored. Keep it clean <span style={{ color: 'orange' }}>❗</span></strong>
+  <div style={{ fontSize: 14, marginTop: 6 }}>
+    18+: <a href="#" style={{ color: '#3366cc' }}>Adult</a> · <a href="#" style={{ color: '#3366cc' }}>Unmoderated Section</a>
+  </div>
+</div>
+
 
       {/* Text above buttons */}
       <div style={{ textAlign: "center", marginTop: 10, fontSize: "18px", fontWeight: 600 }}>
