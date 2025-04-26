@@ -9,12 +9,19 @@ function FeatureTile({ title, desc, iconUrl }) {
       minWidth: 220,
       maxWidth: 325,
       boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
-      textAlign:'center',
+      textAlign: 'center',
       margin: '0 8px'
     }}>
-      <div style={{height:48,marginBottom:10}}>{iconUrl && <img src={iconUrl} alt={title+" icon"} style={{height:42}} />}</div>
-      <h2 style={{fontWeight:700,fontSize:19,marginBottom:6}}>{title}</h2>
-      <span style={{color:'#464b5a',fontSize:15}}>{desc}</span>
+      <div style={{ height: 48, marginBottom: 10 }}>
+        {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42 }} />}
+      </div>
+      <h2 style={{
+        color: '#000',   // Changed title color to black
+        fontWeight: 700,
+        fontSize: 19,
+        marginBottom: 6
+      }}>{title}</h2>
+      <span style={{ color: '#464b5a', fontSize: 15 }}>{desc}</span>
     </article>
   );
 }
@@ -22,7 +29,12 @@ function FeatureTile({ title, desc, iconUrl }) {
 function FeaturesSection() {
   return (
     <section style={{
-      display:'flex',justifyContent:'center',alignItems:'stretch',gap:'18px',margin:'36px auto 34px',maxWidth:1010
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'stretch',
+      gap: '18px',
+      margin: '36px auto 34px',
+      maxWidth: 1010
     }}>
       <FeatureTile
         title="Secured Environment"
