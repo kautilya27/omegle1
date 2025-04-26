@@ -12,15 +12,17 @@ function FeatureTile({ title, desc, iconUrl }) {
       textAlign: 'center',
       margin: '0 8px'
     }}>
-      <div style={{ height: 48, marginBottom: 10 }}>
+      <div style={{ height: 48, marginBottom: 6 }}>
         {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42 }} />}
       </div>
       <h2 style={{
         color: '#000',   // Changed title color to black
         fontWeight: 700,
         fontSize: 19,
-        marginBottom: 6
-      }}>{title}</h2>
+        margin: '0' // Removed margin to reduce space above the heading
+      }}>
+        {title}
+      </h2>
       <span style={{ color: '#464b5a', fontSize: 15 }}>{desc}</span>
     </article>
   );
