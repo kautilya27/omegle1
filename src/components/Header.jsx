@@ -55,7 +55,7 @@ function Header() {
             display: "inline-block",
             lineHeight: 1.2,
             maxWidth: 160,
-            marginTop: 5,
+            marginTop: 6,
             marginLeft: 20, // shifted more to right
           }}
         >
