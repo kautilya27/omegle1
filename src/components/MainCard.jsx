@@ -49,17 +49,24 @@ function MainCard() {
       </div>
 
       {/* New line */}
-      <div style={{ color: "#000", textAlign: "left", marginTop: 18, fontSize: "12px" }}>
+      <div
+        style={{
+          color: "#000",
+          textAlign: "center",
+          marginTop: 18,
+          fontSize: "12px",
+        }}
+      >
         By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
       </div>
 
       {/* Text above buttons */}
-      <div style={{ textAlign: "center", marginTop: 20, fontSize: "18px", fontWeight: 600 }}>
+      <div style={{ textAlign: "center", marginTop: 10, fontSize: "18px", fontWeight: 600 }}>
         Start chatting:
       </div>
 
       {/* Buttons with "or" text in between */}
-      <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
+      <div style={{ textAlign: "center", margin: "16px 0 12px" }}>
         <button
           style={{
             background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
@@ -77,7 +84,15 @@ function MainCard() {
           Video
         </button>
 
-        <span style={{ fontSize: "18px", fontWeight: 600, color: "#000", marginRight: 10, marginLeft: 10 }}>
+        <span
+          style={{
+            fontSize: "18px",
+            fontWeight: 600,
+            color: "#000",
+            marginRight: 10,
+            marginLeft: 10,
+          }}
+        >
           or
         </span>
 
@@ -96,6 +111,14 @@ function MainCard() {
         >
           Text
         </button>
+      </div>
+
+      {/* Additional text below buttons */}
+      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", fontWeight: 600, color: "#000" }}>
+        Spy (question) mode
+      </div>
+      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", fontWeight: 600, color: "#000" }}>
+        Unmoderated section
       </div>
 
       {/* Footer */}
