@@ -16,10 +16,10 @@ function FeatureTile({ title, desc, iconUrl }) {
         {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42 }} />}
       </div>
       <h2 style={{
-        color: '#000',   // Changed title color to black
+        color: '#000',   // Title color set to black
         fontWeight: 700,
-        fontSize: 19,
-        margin: '0' // Removed margin to reduce space above the heading
+        fontSize: 22, // Increased heading size
+        margin: '0' // Removed margin to reduce space
       }}>
         {title}
       </h2>
