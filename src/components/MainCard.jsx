@@ -1,4 +1,4 @@
-leimport React from "react";
+import React from "react";
 
 function MainCard() {
   return (
@@ -14,8 +14,8 @@ function MainCard() {
     }}>
       <div style={{ textAlign: "center", marginBottom: 20 }}>
         <img
-          src="/people video calling.webp"
-          alt="Video call illustration"
+          src="/people%20video%20calling.webp"
+          alt="People Video Calling"
           style={{ maxWidth: "100%", borderRadius: 8 }}
         />
       </div>
