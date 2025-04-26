@@ -11,9 +11,18 @@ function Header() {
         padding: "10px 0",
         boxShadow: "0 1px 4px rgba(0,0,0,0.03)",
         borderBottom: "1px solid #f0f0f0",
+        flexWrap: "wrap"
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: "12px", marginLeft: 20 }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "12px",
+          marginLeft: 20,
+          flexWrap: "wrap"
+        }}
+      >
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <img
             src="https://ext.same-assets.com/2180202029/3907936530.png"
@@ -26,18 +35,27 @@ function Header() {
         </div>
         <span
           style={{
-            marginLeft: 10,
-            fontSize: 17,
+            fontSize: 16,
             color: "#464b5a",
-            fontWeight: 700, // made bold
-            transform: "rotate(-40deg)", // tilted to the left
-            display: "inline-block"
+            fontWeight: 700,
+            transform: "rotate(-10deg)", // gentler tilt
+            display: "inline-block",
+            lineHeight: 1.2,
+            maxWidth: 150
           }}
         >
           Talk to strangers!
         </span>
       </div>
-      <div style={{ display: "flex", alignItems: "center", marginRight: 10 }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          marginRight: 20,
+          marginTop: 8,
+          flexWrap: "wrap"
+        }}
+      >
         <span style={{ color: "#68a8f5", fontWeight: 500, fontSize: 16, marginRight: 18 }}>
           69071 Online Now
         </span>
