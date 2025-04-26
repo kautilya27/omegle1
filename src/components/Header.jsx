@@ -14,36 +14,21 @@ function Header() {
         flexWrap: "wrap",
       }}
     >
+      {/* Logo and Online Text */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          gap: "12px",
           marginLeft: 20,
           flexWrap: "wrap",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
+        <div style={{ display: "flex", alignItems: "center", gap: 5 }}>
           <img
             src="https://ext.same-assets.com/2180202029/3907936530.png"
             alt="Omegle Online Logo"
             style={{ height: 42 }}
           />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "8px", // Reduced gap between logo and "Online"
-            marginLeft: 5, // Reduced space between logo and "Online"
-          }}
-        >
           <span
             style={{
               fontWeight: 600,
@@ -55,18 +40,8 @@ function Header() {
             Online
           </span>
         </div>
-      </div>
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "flex-end", // Aligns "Talk to strangers!" to the right
-          alignItems: "center",
-          marginRight: 20,
-          marginTop: 8,
-          flexWrap: "wrap",
-        }}
-      >
+        {/* Talk to strangers! */}
         <span
           style={{
             fontSize: 20,
@@ -75,13 +50,24 @@ function Header() {
             transform: "rotate(-5deg)",
             display: "inline-block",
             lineHeight: 1.2,
-            whiteSpace: "nowrap", // forces it to stay in one line
-            marginRight: 60, // Added some space between "Talk to strangers!" and "10000+" section
+            whiteSpace: "nowrap",
+            marginLeft: 30, // 👉 only a little right shift
+            marginTop: 6,
           }}
         >
           Talk to strangers!
         </span>
+      </div>
 
+      {/* Online Now and Log In */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          marginRight: 20,
+          flexWrap: "wrap",
+        }}
+      >
         <span
           style={{
             fontWeight: 700,
@@ -113,7 +99,7 @@ function Header() {
             fontSize: 15,
             cursor: "pointer",
             boxShadow: "0 2px 9px -7px #444",
-            marginLeft: "12px",
+            marginLeft: 12,
           }}
         >
           Log in
