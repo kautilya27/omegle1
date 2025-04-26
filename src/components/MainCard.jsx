@@ -11,7 +11,7 @@ function MainCard() {
         boxShadow: "0 2px 12px 0 rgba(0,0,0,0.06)",
         padding: "32px 30px 20px 30px",
         fontSize: 16,
-        color: "#222",
+        color: "#000", // All text color is set to black
       }}
     >
       {/* Text shifted above the image */}
@@ -19,7 +19,7 @@ function MainCard() {
         style={{
           textAlign: "center",
           marginBottom: 14,
-          color: "#464b5a",
+          color: "#000", // Black color for text
           fontWeight: 700, // Bold text
           fontSize: "14px", // Reduced font size to fit in one line
           whiteSpace: "nowrap", // Ensures the text stays in one line
@@ -40,7 +40,7 @@ function MainCard() {
       </div>
 
       {/* Main content */}
-      <div style={{ color: "#464b5a", textAlign: "left", marginBottom: 18 }}>
+      <div style={{ color: "#000", textAlign: "left", marginBottom: 18 }}>
         Omegle (oh-meg-ull) is a great way to meet new friends. When you use Omegle, we pick someone else at random and let you talk one-on-one. To help you stay safe, chats are anonymous unless you tell someone who you are (not suggested!), and you can stop a chat at any time. Predators have been known to use Omegle, so please be careful.
       </div>
 
@@ -49,11 +49,16 @@ function MainCard() {
       </div>
 
       {/* New line */}
-      <div style={{ color: "#464b5a", textAlign: "left", marginTop: 18 }}>
+      <div style={{ color: "#000", textAlign: "left", marginTop: 18, fontSize: "12px" }}>
         By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
       </div>
 
-      {/* Buttons */}
+      {/* Text above buttons */}
+      <div style={{ textAlign: "center", marginTop: 20, fontSize: "18px", fontWeight: 600 }}>
+        Start chatting:
+      </div>
+
+      {/* Buttons with "or" text in between */}
       <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
         <button
           style={{
@@ -66,12 +71,16 @@ function MainCard() {
             padding: "11px 55px",
             boxShadow: "0 8px 24px #cdf1ff50",
             cursor: "pointer",
+            marginRight: 10, // Add space between the buttons
           }}
         >
           Video
         </button>
-      </div>
-      <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
+
+        <span style={{ fontSize: "18px", fontWeight: 600, color: "#000", marginRight: 10, marginLeft: 10 }}>
+          or
+        </span>
+
         <button
           style={{
             background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
