@@ -11,24 +11,9 @@ function InfoSection() {
       padding: '30px 20px',
       textAlign: 'center'
     }}>
-      <h1 style={{ fontSize: 26, fontWeight: "700", marginBottom: 10 }}>
+      <h1 style={{ fontSize: 26, fontWeight: "700", marginBottom: 10, color: 'black' }}>
         Omegle Video Chat With Strangers
       </h1>
-      <h2 style={{ fontSize: 18, color: '#222', fontWeight: 600, margin: 0 }}>
-        Omegle Online: Talk to Strangers!
-      </h2>
-      <p style={{
-        fontSize: 15,
-        color: '#464b5a',
-        margin: '17px 0',
-        textAlign: 'left',
-        maxWidth: 650,
-        marginLeft: 'auto',
-        marginRight: 'auto'
-      }}>
-        Concluding a remarkable 14-year journey marked by the compelling motto <span style={{ color: '#68a8f5' }}>Talk to strangers!</span>, the widely embraced video chat platform, Omegle, gracefully ends its chapter, as formally announced by its visionary founder.<br /><br />
-        As Omegle bows out, a new era inspired by its essence confidently takes center stage. This evolution isn't just a successor; it's a deliberate progression. Addressing past oversights, this new approach places a paramount focus on fortified content moderation, ensuring a secure haven for spontaneous video chat adventures. Brace yourself for an upgraded experience that not only matches but surpasses its predecessor, offering lightning-fast connections and unrivaled security.
-      </p>
 
       {/* NEW CONTENT STARTS HERE */}
       <h3 style={{ fontSize: 22, fontWeight: 700, margin: '30px 0 10px' }}>
