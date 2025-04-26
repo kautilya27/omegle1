@@ -76,7 +76,7 @@ function Header() {
             display: "inline-block",
             lineHeight: 1.2,
             whiteSpace: "nowrap", // forces it to stay in one line
-            marginRight: 20, // Added some space between "Talk to strangers!" and "10000+" section
+            marginRight: 60, // Added some space between "Talk to strangers!" and "10000+" section
           }}
         >
           Talk to strangers!
