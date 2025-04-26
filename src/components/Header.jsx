@@ -27,7 +27,7 @@ function Header() {
           <img
             src="https://ext.same-assets.com/2180202029/3907936530.png"
             alt="Omegle Online Logo"
-            style={{ height: 32 }}
+            style={{ height: 42 }} // Increased logo size
           />
           <span style={{ fontWeight: 600, fontSize: 10, color: "#d2874f", letterSpacing: 1 }}>
             Online
@@ -38,7 +38,7 @@ function Header() {
             fontSize: 16,
             color: "#464b5a",
             fontWeight: 700,
-            transform: "rotate(-10deg)", // gentler tilt
+            transform: "rotate(-10deg)",
             display: "inline-block",
             lineHeight: 1.2,
             maxWidth: 150
