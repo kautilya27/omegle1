@@ -15,16 +15,27 @@ function MainCard() {
       }}
     >
       {/* Text shifted above the image */}
-      <div style={{ textAlign: "center", marginBottom: 14, color: "#464b5a" }}>
+      <div
+        style={{
+          textAlign: "center",
+          marginBottom: 14,
+          color: "#464b5a",
+          fontWeight: 700, // Bold text
+          fontSize: "14px", // Reduced font size to fit in one line
+          whiteSpace: "nowrap", // Ensures the text stays in one line
+          overflow: "hidden", // Prevents text overflow
+          textOverflow: "ellipsis", // Adds ellipsis if text overflows
+        }}
+      >
         You don't need an app to use Omegle Online on your phone or tablet! The website works great on mobile.
       </div>
 
-      {/* Image with reduced height */}
+      {/* Image */}
       <div style={{ textAlign: "center", marginBottom: 20 }}>
         <img
           src="/people%20video%20calling.webp"
           alt="People Video Calling"
-          style={{ maxWidth: "100%", height: "200px", borderRadius: 8 }} // Reduced height here
+          style={{ maxWidth: "100%", height: "200px", borderRadius: 8 }}
         />
       </div>
 
