@@ -26,15 +26,51 @@ const faqs = [
 function FaqSection() {
   const [open, setOpen] = useState(-1);
   return (
-    <section style={{ maxWidth:700, margin: '0 auto 30px auto', background:'#fff', borderRadius:12, boxShadow:'0 2px 12px 0 rgba(0,0,0,0.06)', padding:'26px 18px' }}>
-      <h2 style={{ fontSize:23, fontWeight:700, marginBottom:20, textAlign:'center' }}>FAQs</h2>
+    <section style={{
+      maxWidth: 700,
+      margin: '0 auto 30px auto',
+      background: '#fff',
+      borderRadius: 12,
+      boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
+      padding: '26px 18px'
+    }}>
+      <h2 style={{
+        fontSize: 23,
+        fontWeight: 700,
+        marginBottom: 20,
+        textAlign: 'center',
+        color: '#000' // Updated heading color to black
+      }}>
+        FAQs
+      </h2>
       {faqs.map((item, idx) => (
-        <div key={item.q} style={{ marginBottom:10, borderBottom: '1px solid #eee' }}>
-          <div onClick={() => setOpen(open === idx ? -1 : idx)} style={{ cursor:'pointer', display:'flex', justifyContent:'space-between', alignItems:'center', fontSize:17, padding:'10px 0', fontWeight:600, color:'#464b5a' }}>
+        <div key={item.q} style={{ marginBottom: 10, borderBottom: '1px solid #eee' }}>
+          <div
+            onClick={() => setOpen(open === idx ? -1 : idx)}
+            style={{
+              cursor: 'pointer',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              fontSize: 17,
+              padding: '10px 0',
+              fontWeight: 600,
+              color: '#464b5a'
+            }}
+          >
             {item.q}
             <span>{open === idx ? '-' : '+'}</span>
           </div>
-          {open === idx && (<div style={{ fontSize:15, color:'#222', margin:'2px 0 8px 4px', textAlign:'left' }}>{item.a}</div>)}
+          {open === idx && (
+            <div style={{
+              fontSize: 15,
+              color: '#222',
+              margin: '2px 0 8px 4px',
+              textAlign: 'left'
+            }}>
+              {item.a}
+            </div>
+          )}
         </div>
       ))}
     </section>
