@@ -10,7 +10,10 @@ function FeatureTile({ title, desc, iconUrl }) {
       maxWidth: 325,
       boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
       textAlign: 'center',
-      margin: '0 8px'
+      margin: '0 8px',
+      display: 'flex',
+      flexDirection: 'column', // Ensure the content is stacked vertically
+      justifyContent: 'flex-start', // Align everything to the top
     }}>
       <div style={{ height: 48, marginBottom: 6 }}>
         {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42 }} />}
@@ -19,7 +22,7 @@ function FeatureTile({ title, desc, iconUrl }) {
         color: '#000',   // Title color set to black
         fontWeight: 700,
         fontSize: 22, // Increased heading size
-        margin: '0' // Removed margin to reduce space
+        margin: '0 0 6px', // Removed space above and added space below
       }}>
         {title}
       </h2>
