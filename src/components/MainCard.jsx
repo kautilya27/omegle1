@@ -49,14 +49,7 @@ function MainCard() {
       </div>
 
       {/* New line */}
-      <div
-        style={{
-          color: "#000",
-          textAlign: "center",
-          marginTop: 18,
-          fontSize: "12px",
-        }}
-      >
+      <div style={{ color: "#000", textAlign: "center", marginTop: 18, fontSize: "12px" }}>
         By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
       </div>
 
@@ -66,7 +59,7 @@ function MainCard() {
       </div>
 
       {/* Buttons with "or" text in between */}
-      <div style={{ textAlign: "center", margin: "16px 0 12px" }}>
+      <div style={{ display: "flex", justifyContent: "center", gap: "10px", marginTop: 14 }}>
         <button
           style={{
             background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
@@ -78,21 +71,12 @@ function MainCard() {
             padding: "11px 55px",
             boxShadow: "0 8px 24px #cdf1ff50",
             cursor: "pointer",
-            marginRight: 10, // Add space between the buttons
           }}
         >
           Video
         </button>
 
-        <span
-          style={{
-            fontSize: "18px",
-            fontWeight: 600,
-            color: "#000",
-            marginRight: 10,
-            marginLeft: 10,
-          }}
-        >
+        <span style={{ fontSize: "18px", fontWeight: 600, color: "#000", marginTop: "10px" }}>
           or
         </span>
 
@@ -113,12 +97,10 @@ function MainCard() {
         </button>
       </div>
 
-      {/* Additional text below buttons */}
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", fontWeight: 600, color: "#000" }}>
-        Spy (question) mode
-      </div>
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", fontWeight: 600, color: "#000" }}>
-        Unmoderated section
+      {/* New texts below buttons */}
+      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", color: "#000" }}>
+        <div>Spy (question) mode</div>
+        <div>Unmoderated section</div>
       </div>
 
       {/* Footer */}
