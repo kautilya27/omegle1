@@ -5,7 +5,7 @@ function FeatureTile({ title, desc, iconUrl }) {
     <article style={{
       background: '#fff',
       borderRadius: 14,
-      padding: '22px 13px 19px',  // Adjusted padding to avoid unnecessary space
+      padding: '22px 13px 19px',  // Adjusted padding for content spacing
       minWidth: 220,
       maxWidth: 325,
       boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
@@ -13,8 +13,8 @@ function FeatureTile({ title, desc, iconUrl }) {
       margin: '0 8px',
       display: 'flex',
       flexDirection: 'column', // Stack content vertically
-      justifyContent: 'flex-start', // Ensure everything is aligned to the top
-      position: 'relative', // Ensure proper positioning of children
+      justifyContent: 'flex-start', // Align everything to the top
+      position: 'relative',
     }}>
       {/* Icon section */}
       <div style={{ height: 48, marginBottom: 6 }}>
@@ -26,9 +26,9 @@ function FeatureTile({ title, desc, iconUrl }) {
         color: '#000',   // Title color set to black
         fontWeight: 700,
         fontSize: 22, // Increased font size
-        marginTop: '0', // Removed any margin-top to eliminate space
+        marginTop: 0, // Removed any margin-top to eliminate space
         marginBottom: '6px', // Small space below the title
-        paddingTop: '0', // Removed padding above the title
+        paddingTop: 0, // Removed padding above the title
         lineHeight: '1', // Ensure line-height doesn't cause unnecessary space
       }}>
         {title}
@@ -50,14 +50,19 @@ function FeaturesSection() {
       margin: '36px auto 34px',
       maxWidth: 1010
     }}>
+      {/* Feature 1 */}
       <FeatureTile
         title="Secured Environment"
         desc="Your safety is paramount. At Omegle Online, we provide a secure platform with advanced screening processes. Chat with peace of mind, knowing we've taken measures to ensure a smooth and worry-free experience."
       />
+      
+      {/* Feature 2 */}
       <FeatureTile
         title="Fast Connections"
         desc="Dive straight into exciting conversations! Our ultra-efficient matching system minimizes wait times and maximizes your chat experience. Discover why our speed and ease of use set us apart as the leading Omegle alternative."
       />
+      
+      {/* Feature 3 */}
       <FeatureTile
         title="Global Reach"
         desc="Connect with a diverse international community. Expand your horizons as you interact with users from around the world, enriching your social experience on Omegle Online. Enjoy engaging in online chat random and stranger video call online."
