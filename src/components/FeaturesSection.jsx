@@ -26,8 +26,8 @@ function FeatureTile({ title, desc, iconUrl }) {
         color: '#000',   // Title color set to black
         fontWeight: 700,
         fontSize: 22, // Increased font size
-        marginTop: '1px', // Added space above the title
-        marginBottom: '1px', // Added space below the title for balance
+        marginTop: '10px', // Added space above the title
+        marginBottom: '10px', // Added space below the title for balance
         paddingTop: 0, // Removed padding above the title
         paddingBottom: 0, // Ensured no extra space below the title
         lineHeight: '1', // Ensure line-height doesn't cause unnecessary space
