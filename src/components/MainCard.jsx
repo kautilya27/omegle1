@@ -105,17 +105,6 @@ function MainCard() {
         </button>
       </div>
 
-      {/* New texts below respective buttons */}
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", color: "#000" }}>
-        {/* "Unmoderated section" below video button */}
-        <div style={{ marginTop: 10 }}>Unmoderated section</div>
-      </div>
-
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: "14px", color: "#000" }}>
-        {/* "Spy (question) mode" below text button */}
-        <div style={{ marginTop: 10 }}>Spy (question) mode</div>
-      </div>
-
       {/* Footer */}
       <footer
         style={{
