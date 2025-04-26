@@ -4,6 +4,8 @@ import InfoSection from './components/InfoSection';
 import FeaturesSection from './components/FeaturesSection';
 import FaqSection from './components/FaqSection';
 import Footer from './components/Footer';
+import TermsOfService from './pages/TermsOfService';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -15,6 +17,12 @@ function App() {
         <FeaturesSection />
         <FaqSection />
       </main>
+      <Router>
+      <Routes>
+        {/* Other routes */}
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+      </Routes>
+    </Router>
       <Footer />
     </div>
   );
