@@ -35,6 +35,15 @@ function Header() {
             alt="Omegle Online Logo"
             style={{ height: 42 }}
           />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "12px",
+            marginLeft: 10, // Add space between logo and "Online"
+          }}
+        >
           <span
             style={{
               fontWeight: 600,
@@ -45,15 +54,6 @@ function Header() {
           >
             Online
           </span>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "12px",
-            marginLeft: 20, // Adjust to control spacing between "Talk to strangers" and "online now"
-          }}
-        >
           <span
             style={{
               fontSize: 20,
@@ -67,25 +67,6 @@ function Header() {
           >
             Talk to strangers!
           </span>
-          <span
-            style={{
-              fontWeight: 700,
-              fontSize: 26,
-              color: "#68a8f5",
-              marginRight: 5,
-            }}
-          >
-            10,000+
-          </span>
-          <span
-            style={{
-              color: "#68a8f5",
-              fontWeight: 500,
-              fontSize: 16,
-            }}
-          >
-            online now
-          </span>
         </div>
       </div>
       <div
@@ -97,6 +78,25 @@ function Header() {
           flexWrap: "wrap",
         }}
       >
+        <span
+          style={{
+            fontWeight: 700, // Added heavier weight for emphasis
+            fontSize: 26, // Increased font size for "10000+" part
+            color: "#68a8f5",
+            marginRight: 5,
+          }}
+        >
+          10,000+
+        </span>
+        <span
+          style={{
+            color: "#68a8f5",
+            fontWeight: 500,
+            fontSize: 16,
+          }}
+        >
+          online now
+        </span>
         <button
           style={{
             background: "#f9f6f2",
