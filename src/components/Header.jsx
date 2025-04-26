@@ -37,7 +37,7 @@ function Header() {
           Talk to strangers!
         </span>
       </div>
-      <div style={{ display: "flex", alignItems: "center", marginRight: 20 }}>
+      <div style={{ display: "flex", alignItems: "center", marginRight: 10 }}>
         <span style={{ color: "#68a8f5", fontWeight: 500, fontSize: 16, marginRight: 18 }}>
           69071 Online Now
         </span>
