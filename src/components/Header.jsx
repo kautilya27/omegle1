@@ -48,7 +48,7 @@ function Header() {
         </div>
         <span
           style={{
-            fontSize: 16,
+            fontSize: 18,
             color: "#464b5a",
             fontWeight: 700,
             transform: "rotate(-10deg)",
