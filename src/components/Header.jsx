@@ -18,7 +18,7 @@ function Header() {
         style={{
           display: "flex",
           alignItems: "center",
-          gap: "18px", // Increased gap here
+          gap: "12px", // back to normal small gap
           marginLeft: 20,
           flexWrap: "wrap",
         }}
@@ -54,8 +54,9 @@ function Header() {
             transform: "rotate(-10deg)",
             display: "inline-block",
             lineHeight: 1.2,
-            maxWidth: 160, // small adjustment
-            marginTop: 8, // better vertical alignment
+            maxWidth: 160,
+            marginTop: 8,
+            marginLeft: 24, // shifted more to right
           }}
         >
           Talk to strangers!
