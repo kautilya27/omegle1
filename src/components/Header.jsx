@@ -13,16 +13,27 @@ function Header() {
         borderBottom: "1px solid #f0f0f0",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: "8px", marginLeft: 20 }}>
-        <img
-          src="https://ext.same-assets.com/2180202029/3907936530.png"
-          alt="Omegle Online Logo"
-          style={{ height: 32 }}
-        />
-        <span style={{ fontWeight: 600, fontSize: 10, color: "#d2874f", letterSpacing: 1 }}>
-          Online
-        </span>
-        <span style={{ marginLeft: 10, fontSize: 17, color: "#464b5a", fontWeight: 400 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "12px", marginLeft: 20 }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <img
+            src="https://ext.same-assets.com/2180202029/3907936530.png"
+            alt="Omegle Online Logo"
+            style={{ height: 32 }}
+          />
+          <span style={{ fontWeight: 600, fontSize: 10, color: "#d2874f", letterSpacing: 1 }}>
+            Online
+          </span>
+        </div>
+        <span
+          style={{
+            marginLeft: 10,
+            fontSize: 17,
+            color: "#464b5a",
+            fontWeight: 700, // made bold
+            transform: "rotate(-40deg)", // tilted to the left
+            display: "inline-block"
+          }}
+        >
           Talk to strangers!
         </span>
       </div>
