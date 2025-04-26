@@ -68,28 +68,10 @@ function Header() {
           alignItems: "center",
           marginRight: 20,
           marginTop: 8,
-          flexWrap: "wrap",
+          flexDirection: "column", // Changed to column to stack the button above the text
+          alignItems: "flex-end", // Align everything to the right
         }}
       >
-        <span
-          style={{
-            fontWeight: 700, // Added heavier weight for emphasis
-            fontSize: 26, // Increased font size for "10000+" part
-            color: "#68a8f5",
-            marginRight: 5,
-          }}
-        >
-          10,000+
-        </span>
-        <span
-          style={{
-            color: "#68a8f5",
-            fontWeight: 500,
-            fontSize: 16,
-          }}
-        >
-          online now
-        </span>
         <button
           style={{
             background: "#f9f6f2",
@@ -101,10 +83,32 @@ function Header() {
             fontSize: 15,
             cursor: "pointer",
             boxShadow: "0 2px 9px -7px #444",
+            marginBottom: 8, // Added some margin to space out the button from the text
           }}
         >
           Log in
         </button>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <span
+            style={{
+              fontWeight: 700, // Added heavier weight for emphasis
+              fontSize: 26, // Increased font size for "10,000+" part
+              color: "#68a8f5",
+              marginRight: 5,
+            }}
+          >
+            10,000+
+          </span>
+          <span
+            style={{
+              color: "#68a8f5",
+              fontWeight: 500,
+              fontSize: 16,
+            }}
+          >
+            online now
+          </span>
+        </div>
       </div>
     </header>
   );
