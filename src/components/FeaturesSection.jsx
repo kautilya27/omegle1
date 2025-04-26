@@ -5,7 +5,7 @@ function FeatureTile({ title, desc, iconUrl }) {
     <article style={{
       background: '#fff',
       borderRadius: 14,
-      padding: '22px 13px 19px',  // Adjust padding for better layout
+      padding: '22px 13px 19px',  // Adjusted padding to avoid unnecessary space
       minWidth: 220,
       maxWidth: 325,
       boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
@@ -15,10 +15,9 @@ function FeatureTile({ title, desc, iconUrl }) {
       flexDirection: 'column', // Stack content vertically
       justifyContent: 'flex-start', // Ensure everything is aligned to the top
       position: 'relative', // Ensure proper positioning of children
-      outline: '1px solid red'  // Temporary outline to check for any unexpected space
     }}>
       {/* Icon section */}
-      <div style={{ height: 48, marginBottom: 6, outline: '1px solid blue' }}>
+      <div style={{ height: 48, marginBottom: 6 }}>
         {iconUrl && <img src={iconUrl} alt={title + " icon"} style={{ height: 42, display: 'block', margin: 0 }} />}
       </div>
 
@@ -31,7 +30,6 @@ function FeatureTile({ title, desc, iconUrl }) {
         marginBottom: '6px', // Small space below the title
         paddingTop: '0', // Removed padding above the title
         lineHeight: '1', // Ensure line-height doesn't cause unnecessary space
-        outline: '1px solid green' // Temporary outline to check the title's position
       }}>
         {title}
       </h2>
