@@ -48,6 +48,11 @@ function MainCard() {
         If you prefer, you can add your interests, and Omegle will look for someone who's into some of the same things as you instead of someone completely random.
       </div>
 
+      {/* New line */}
+      <div style={{ color: "#464b5a", textAlign: "left", marginTop: 18 }}>
+        By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
+      </div>
+
       {/* Buttons */}
       <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
         <button
