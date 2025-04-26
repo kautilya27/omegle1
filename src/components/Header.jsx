@@ -12,6 +12,7 @@ function Header() {
         boxShadow: "0 1px 4px rgba(0,0,0,0.03)",
         borderBottom: "1px solid #f0f0f0",
         flexWrap: "wrap",
+        maxHeight: "80px", // Set max height to prevent the header from becoming too big
       }}
     >
       <div
@@ -68,7 +69,7 @@ function Header() {
           alignItems: "center",
           marginRight: 20,
           marginTop: 8,
-          flexDirection: "column", // Changed to column to stack the button above the text
+          flexDirection: "column", // Stacks the button above the text
           alignItems: "flex-end", // Align everything to the right
         }}
       >
@@ -83,7 +84,7 @@ function Header() {
             fontSize: 15,
             cursor: "pointer",
             boxShadow: "0 2px 9px -7px #444",
-            marginBottom: 8, // Added some margin to space out the button from the text
+            marginBottom: 8, // Spacing between button and text
           }}
         >
           Log in
@@ -91,7 +92,7 @@ function Header() {
         <div style={{ display: "flex", alignItems: "center" }}>
           <span
             style={{
-              fontWeight: 700, // Added heavier weight for emphasis
+              fontWeight: 700, // Heavier weight for emphasis
               fontSize: 26, // Increased font size for "10,000+" part
               color: "#68a8f5",
               marginRight: 5,
