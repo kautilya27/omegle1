@@ -18,56 +18,26 @@ function Header() {
         style={{
           display: "flex",
           alignItems: "center",
-          gap: "12px",
+          gap: "4px", // Reduced gap between logo and "Online"
           marginLeft: 20,
           flexWrap: "wrap",
         }}
       >
-        <div
+        <img
+          src="https://ext.same-assets.com/2180202029/3907936530.png"
+          alt="Omegle Online Logo"
+          style={{ height: 42 }}
+        />
+        <span
           style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
+            fontWeight: 600,
+            fontSize: 10,
+            color: "#d2874f",
+            letterSpacing: 1,
           }}
         >
-          <img
-            src="https://ext.same-assets.com/2180202029/3907936530.png"
-            alt="Omegle Online Logo"
-            style={{ height: 42 }}
-          />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "12px",
-            marginLeft: 10, // Add space between logo and "Online"
-          }}
-        >
-          <span
-            style={{
-              fontWeight: 600,
-              fontSize: 10,
-              color: "#d2874f",
-              letterSpacing: 1,
-            }}
-          >
-            Online
-          </span>
-          <span
-            style={{
-              fontSize: 20,
-              color: "#464b5a",
-              fontWeight: 700,
-              transform: "rotate(-5deg)",
-              display: "inline-block",
-              lineHeight: 1.2,
-              whiteSpace: "nowrap", // forces it to stay in one line
-            }}
-          >
-            Talk to strangers!
-          </span>
-        </div>
+          Online
+        </span>
       </div>
       <div
         style={{
