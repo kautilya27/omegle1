@@ -11,25 +11,38 @@ function Header() {
         padding: "10px 0",
         boxShadow: "0 1px 4px rgba(0,0,0,0.03)",
         borderBottom: "1px solid #f0f0f0",
-        flexWrap: "wrap"
+        flexWrap: "wrap",
       }}
     >
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          gap: "12px",
+          gap: "18px", // Increased gap here
           marginLeft: 20,
-          flexWrap: "wrap"
+          flexWrap: "wrap",
         }}
       >
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
           <img
             src="https://ext.same-assets.com/2180202029/3907936530.png"
             alt="Omegle Online Logo"
-            style={{ height: 42 }} // Increased logo size
+            style={{ height: 42 }}
           />
-          <span style={{ fontWeight: 600, fontSize: 10, color: "#d2874f", letterSpacing: 1 }}>
+          <span
+            style={{
+              fontWeight: 600,
+              fontSize: 10,
+              color: "#d2874f",
+              letterSpacing: 1,
+            }}
+          >
             Online
           </span>
         </div>
@@ -41,7 +54,8 @@ function Header() {
             transform: "rotate(-10deg)",
             display: "inline-block",
             lineHeight: 1.2,
-            maxWidth: 150
+            maxWidth: 160, // small adjustment
+            marginTop: 8, // better vertical alignment
           }}
         >
           Talk to strangers!
@@ -53,10 +67,17 @@ function Header() {
           alignItems: "center",
           marginRight: 20,
           marginTop: 8,
-          flexWrap: "wrap"
+          flexWrap: "wrap",
         }}
       >
-        <span style={{ color: "#68a8f5", fontWeight: 500, fontSize: 16, marginRight: 18 }}>
+        <span
+          style={{
+            color: "#68a8f5",
+            fontWeight: 500,
+            fontSize: 16,
+            marginRight: 18,
+          }}
+        >
           69071 Online Now
         </span>
         <button
