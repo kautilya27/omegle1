@@ -16,9 +16,6 @@ function InfoSection() {
       </h1>
 
       {/* NEW CONTENT STARTS HERE */}
-      <h3 style={{ fontSize: 22, fontWeight: 700, margin: '30px 0 10px' }}>
-        Connect with the World: Experience Random Video Chat on Omegle Online
-      </h3>
       <p style={{
         fontSize: 15,
         color: '#464b5a',
