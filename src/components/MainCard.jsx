@@ -19,12 +19,12 @@ function MainCard() {
         You don't need an app to use Omegle Online on your phone or tablet! The website works great on mobile.
       </div>
 
-      {/* Image */}
+      {/* Image with reduced height */}
       <div style={{ textAlign: "center", marginBottom: 20 }}>
         <img
           src="/people%20video%20calling.webp"
           alt="People Video Calling"
-          style={{ maxWidth: "100%", borderRadius: 8 }}
+          style={{ maxWidth: "100%", height: "200px", borderRadius: 8 }} // Reduced height here
         />
       </div>
 
