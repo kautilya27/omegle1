@@ -12,15 +12,23 @@ function MainCard() {
       fontSize: 16,
       color: "#222"
     }}>
+      <div style={{ textAlign: "center", marginBottom: 20 }}>
+        <img
+          src="/ChatGPT Image Apr 25, 2025, 12_15_53 PM.png"
+          alt="Video call illustration"
+          style={{ maxWidth: "100%", borderRadius: 8 }}
+        />
+      </div>
+
       <div style={{ textAlign: "center", marginBottom: 10, color: "#464b5a" }}>
         You don't need an app to use Omegle Online on your phone or tablet! The web site works great on mobile.
       </div>
       <div style={{ color: "#464b5a", textAlign: "left", marginBottom: 18 }}>
-      Omegle (oh-meg-ull) is a great way to meet new friends. When you use Omegle, we pick someone else at random and let you talk one-on-one. To help you stay safe, chats are anonymous unless you tell someone who you are (not suggested!), and you can stop a chat at any time. Predators have been known to use Omegle, so please be careful.
+        Omegle (oh-meg-ull) is a great way to meet new friends. When you use Omegle, we pick someone else at random and let you talk one-on-one. To help you stay safe, chats are anonymous unless you tell someone who you are (not suggested!), and you can stop a chat at any time. Predators have been known to use Omegle, so please be careful.
       </div>
 
-      <div> 
-      If you prefer, you can add your interests, and Omegle will look for someone who's into some of the same things as you instead of someone completely random.
+      <div>
+        If you prefer, you can add your interests, and Omegle will look for someone who's into some of the same things as you instead of someone completely random.
       </div>
       <div style={{ textAlign: "center", margin: "24px 0 12px" }}>
         <button style={{
