@@ -79,16 +79,16 @@ function Header() {
             marginRight: 5,
           }}
         >
-          10000+
+          10,000+
         </span>
         <span
           style={{
             color: "#68a8f5",
             fontWeight: 500,
-            fontSize: 16,
+            fontSize: 24,
           }}
         >
-          Online Now
+          online now
         </span>
         <button
           style={{
