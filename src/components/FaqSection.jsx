@@ -2,29 +2,38 @@ import React, { useState } from 'react';
 
 const faqs = [
   {
-    q: "Is this platform appropriate for minors?",
-    a: "This platform is designed for users who are 18 years and older. We value the safety and well-being of our users. It is strongly advised that minors should use age-appropriate platforms for online communications."
+    q: "What is Omegle Online?",
+    a: "Omegle Online is a free online chat platform that connects users anonymously with random strangers for text or video chat."
   },
   {
-    q: "How does the platform maintain user safety?",
-    a: "A 24/7 moderation system is dedicated to ensure user safety and create a secure environment for interactions."
+    q: "How do I start a chat on Omegle Online?",
+    a: "Simply visit the website, choose between text or video chat, and click the \"Start\" button. You will be instantly connected with a random user from around the world."
   },
   {
-    q: "Can I use Omegle Online on a global scale?",
-    a: "Definitely, this platform allow users to make new friends around the world, experience different cultures and meet people from different walks of life."
+    q: "Is Omegle Online free to use?",
+    a: "Yes, Omegle Online is completely free. There are no hidden fees or charges for using the platform."
   },
   {
-    q: "How fast is the matching process on this platform?",
-    a: "The matching process on this platform is fast and easy! User can match someone seamlessly with a stable internet connection."
+    q: "Can I use Omegle Online on my mobile device?",
+    a: "Yes, Omegle Online is accessible on both web browsers and mobile devices, allowing you to chat from anywhere."
   },
   {
-    q: "Is Omegle free to use?",
-    a: "Yes, users can use Omegle free of charge. Dive into random video chats, talk to strangers, and enjoy fun experience with cool people without any subscription fees!"
+    q: "Is Omegle Online safe?",
+    a: "While Omegle Online offers moderation and reporting features, users may still encounter inappropriate content or behavior. It is important not to share personal information and to end any conversation that makes you uncomfortable."
+  },
+  {
+    q: "Is Omegle Online suitable for children?",
+    a: "No, Omegle Online is not recommended for children or minors. The platform may contain adult content, and users under 18 should not use it without parental supervision."
+  },
+  {
+    q: "What should I do if my camera or microphone isn’t working?",
+    a: "Ensure your camera and microphone are properly connected and that you have granted the necessary permissions to the website or app."
   }
 ];
 
 function FaqSection() {
   const [open, setOpen] = useState(-1);
+
   return (
     <section style={{
       maxWidth: 700,
@@ -39,7 +48,7 @@ function FaqSection() {
         fontWeight: 700,
         marginBottom: 20,
         textAlign: 'center',
-        color: '#000' // Updated heading color to black
+        color: '#000'
       }}>
         FAQs
       </h2>
