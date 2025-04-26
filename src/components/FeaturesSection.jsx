@@ -5,7 +5,7 @@ function FeatureTile({ title, desc, iconUrl }) {
     <article style={{
       background: '#fff',
       borderRadius: 14,
-      padding: '10px 13px 19px',  // Reduced padding to minimize space
+      padding: '22px 13px 19px',  // Adjust padding for better layout
       minWidth: 220,
       maxWidth: 325,
       boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
@@ -13,7 +13,7 @@ function FeatureTile({ title, desc, iconUrl }) {
       margin: '0 8px',
       display: 'flex',
       flexDirection: 'column', // Stack content vertically
-      justifyContent: 'flex-start', // Align content to the top
+      justifyContent: 'flex-start', // Ensure everything is aligned to the top
     }}>
       {/* Icon section */}
       <div style={{ height: 48, marginBottom: 6 }}>
@@ -25,8 +25,9 @@ function FeatureTile({ title, desc, iconUrl }) {
         color: '#000',   // Title color set to black
         fontWeight: 700,
         fontSize: 22, // Increased font size
-        margin: '0', // Removed margin to ensure the title is right at the top
-        paddingTop: 0, // Ensured no padding above the title
+        marginTop: '0', // Removed any margin-top to eliminate space
+        marginBottom: '6px', // Small space below the title
+        paddingTop: '0', // Removed padding above the title
       }}>
         {title}
       </h2>
