@@ -35,6 +35,8 @@ function Header() {
               fontSize: 10,
               color: "#d2874f",
               letterSpacing: 1,
+              position: "relative",
+              top: 4, // 👉 move "Online" slightly lower
             }}
           >
             Online
@@ -51,7 +53,7 @@ function Header() {
             display: "inline-block",
             lineHeight: 1.2,
             whiteSpace: "nowrap",
-            marginLeft: 30, // 👉 only a little right shift
+            marginLeft: 30,
             marginTop: 6,
           }}
         >
