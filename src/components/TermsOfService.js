@@ -1,4 +1,4 @@
-// src/pages/TermsOfService.jsx
+// src/pages/TermsOfService.js
 
 import React from 'react';
 
