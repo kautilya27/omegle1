@@ -5,7 +5,6 @@ import InfoSection from './components/InfoSection';
 import FeaturesSection from './components/FeaturesSection';
 import FaqSection from './components/FaqSection';
 import Footer from './components/Footer';
-import TermsOfService from './components/TermsOfService';
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
                 </>
               }
             />
-            <Route path="/terms-of-service" element={<TermsOfService />} />
           </Routes>
         </main>
         <Footer />
