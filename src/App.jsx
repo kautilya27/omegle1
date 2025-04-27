@@ -9,22 +9,31 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{backgroundColor:'#f9f6f2', minHeight:'100vh'}}>
-      <Header />
-      <main>
-        <MainCard />
-        <InfoSection />
-        <FeaturesSection />
-        <FaqSection />
-      </main>
-      <Router>
-      <Routes>
-        {/* Other routes */}
-        <Route path="/terms-of-service" element={<TermsOfService />} />
-      </Routes>
+    <Router>
+      <div style={{ backgroundColor: '#f9f6f2', minHeight: '100vh' }}>
+        <Header />
+        <main>
+          <Routes>
+            {/* Main page */}
+            <Route
+              path="/"
+              element={
+                <>
+                  <MainCard />
+                  <InfoSection />
+                  <FeaturesSection />
+                  <FaqSection />
+                </>
+              }
+            />
+
+            {/* Terms of Service Page */}
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
-      <Footer />
-    </div>
   );
 }
 
