@@ -11,7 +11,7 @@ function MainCard() {
         boxShadow: "0 2px 12px 0 rgba(0,0,0,0.06)",
         padding: "32px 30px 20px 30px",
         fontSize: 16,
-        color: "#000", // All text color is set to black
+        color: "#000",
       }}
     >
       {/* Text shifted above the image */}
@@ -19,12 +19,12 @@ function MainCard() {
         style={{
           textAlign: "center",
           marginBottom: 14,
-          color: "#000", // Black color for text
-          fontWeight: 700, // Bold text
-          fontSize: "14px", // Reduced font size to fit in one line
-          whiteSpace: "nowrap", // Ensures the text stays in one line
-          overflow: "hidden", // Prevents text overflow
-          textOverflow: "ellipsis", // Adds ellipsis if text overflows
+          color: "#000",
+          fontWeight: 700,
+          fontSize: "14px",
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
         }}
       >
         You don't need an app to use Omegle Online on your phone or tablet! The website works great on mobile.
@@ -63,6 +63,19 @@ function MainCard() {
         }}
       >
         <strong>Video is monitored. Keep it clean <span style={{ color: 'orange' }}>❗</span></strong>
+      </div>
+
+      {/* UNDER CONSTRUCTION text */}
+      <div
+        style={{
+          textAlign: "center",
+          color: "red",
+          fontSize: "22px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        This website is under construction and will be fully working by June.
       </div>
 
       {/* Text above buttons */}
