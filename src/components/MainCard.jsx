@@ -119,9 +119,9 @@ function MainCard() {
         </div>
 
         {/* Right Side: Start Chatting */}
-        <div style={{ textAlign: 'center' }}>
-          {/* Centered Label */}
-          <div style={{ fontSize: 23, fontWeight: 700, marginBottom: 6 }}>
+        <div style={{ textAlign: 'left', marginLeft: 40 }}>
+          {/* Centered Label above buttons */}
+          <div style={{ textAlign: 'center', fontSize: 25, fontWeight: 700, marginBottom: 12 }}>
             Start chatting:
           </div>
 
@@ -130,11 +130,9 @@ function MainCard() {
             style={{
               display: 'flex',
               gap: 12,
-              justifyContent: 'center',
+              justifyContent: 'flex-start',
               alignItems: 'center',
               marginTop: 0,
-              marginLeft: 40, // shifts the buttons right
-
             }}
           >
             <button
