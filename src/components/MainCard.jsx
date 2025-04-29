@@ -121,7 +121,7 @@ function MainCard() {
         {/* Right Side: Start Chatting */}
         <div style={{ textAlign: 'center' }}>
           {/* Centered Label */}
-          <div style={{ fontSize: 25, fontWeight: 700, marginBottom: 6 }}>
+          <div style={{ fontSize: 23, fontWeight: 700, marginBottom: 6 }}>
             Start chatting:
           </div>
 
