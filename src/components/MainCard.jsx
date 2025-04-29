@@ -78,7 +78,7 @@ function MainCard() {
         This website is under construction and will be fully working by June.
       </div>
 
-            {/* Interest Input + Chat Buttons Section */}
+      {/* Interest Input + Chat Buttons Section */}
       <div
         style={{
           display: 'flex',
@@ -116,7 +116,7 @@ function MainCard() {
           <div
             style={{
               display: 'flex',
-              gap: 10,
+              gap: 12,
               justifyContent: 'center',
               alignItems: 'center',
             }}
@@ -125,11 +125,11 @@ function MainCard() {
               style={{
                 background: 'linear-gradient(to bottom, #4db8ff, #007bff)',
                 color: '#fff',
-                padding: '10px 20px',
-                fontSize: 16,
-                fontWeight: 600,
+                padding: '14px 32px',
+                fontSize: 18,
+                fontWeight: 700,
                 border: 'none',
-                borderRadius: 6,
+                borderRadius: 8,
                 cursor: 'pointer',
               }}
             >
@@ -140,11 +140,11 @@ function MainCard() {
               style={{
                 background: 'linear-gradient(to bottom, #4db8ff, #007bff)',
                 color: '#fff',
-                padding: '10px 20px',
-                fontSize: 16,
-                fontWeight: 600,
+                padding: '14px 32px',
+                fontSize: 18,
+                fontWeight: 700,
                 border: 'none',
-                borderRadius: 6,
+                borderRadius: 8,
                 cursor: 'pointer',
               }}
             >
@@ -153,7 +153,6 @@ function MainCard() {
           </div>
         </div>
       </div>
-
 
       {/* Footer */}
       <footer
