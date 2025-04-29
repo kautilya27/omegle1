@@ -14,7 +14,7 @@ function MainCard() {
         color: "#000",
       }}
     >
-      {/* Text shifted above the image */}
+      {/* Top Text */}
       <div
         style={{
           textAlign: "center",
@@ -44,12 +44,12 @@ function MainCard() {
         Omegle (oh-meg-ull) Online is a great way to meet new friends. When you use Omegle Online, we pick someone else at random and let you talk one-on-one. To help you stay safe, chats are anonymous unless you tell someone who you are (not suggested!), and you can stop a chat at any time. Predators have been known to use Omegle Online, so please be careful.
       </div>
 
-      {/* New line */}
+      {/* Terms Notice */}
       <div style={{ color: "#000", textAlign: "center", marginTop: 18, fontSize: "12px" }}>
         By using Omegle Online, you accept the terms at the bottom. You must be 18+ to use this website.
       </div>
 
-      {/* Warning box */}
+      {/* Warning */}
       <div
         style={{
           backgroundColor: '#d9ebff',
@@ -65,7 +65,7 @@ function MainCard() {
         <strong>Video is monitored. Keep it clean <span style={{ color: 'orange' }}>❗</span></strong>
       </div>
 
-      {/* UNDER CONSTRUCTION text */}
+      {/* Under Construction */}
       <div
         style={{
           textAlign: "center",
@@ -76,58 +76,6 @@ function MainCard() {
         }}
       >
         This website is under construction and will be fully working by June.
-      </div>
-
-      {/* Text above buttons */}
-      <div style={{ textAlign: "center", marginTop: 10, fontSize: "18px", fontWeight: 600 }}>
-        Start chatting:
-      </div>
-
-      {/* Buttons with "or" text in between */}
-      <div style={{ textAlign: "center", marginTop: 14 }}>
-        <button
-          style={{
-            background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
-            color: "#fff",
-            fontSize: 19,
-            fontWeight: 700,
-            border: 0,
-            borderRadius: 6,
-            padding: "11px 55px",
-            boxShadow: "0 8px 24px #cdf1ff50",
-            cursor: "pointer",
-            marginRight: "15px",
-          }}
-        >
-          Video
-        </button>
-        <span
-          style={{
-            fontSize: "18px",
-            fontWeight: 600,
-            color: "#000",
-            marginTop: "10px",
-            verticalAlign: "middle",
-          }}
-        >
-          or
-        </span>
-        <button
-          style={{
-            background: "linear-gradient(90deg, #68a8f5 80%, #94b0d5 100%)",
-            color: "#fff",
-            fontSize: 19,
-            fontWeight: 700,
-            border: 0,
-            borderRadius: 6,
-            padding: "11px 55px",
-            boxShadow: "0 8px 24px #cdf1ff50",
-            cursor: "pointer",
-            marginLeft: "15px",
-          }}
-        >
-          Text
-        </button>
       </div>
 
       {/* Footer */}
