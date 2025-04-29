@@ -118,20 +118,19 @@ function MainCard() {
           />
         </div>
 
-        {/* Right Side: Buttons */}
-        <div
-          style={{
-            textAlign: 'left',
-            paddingLeft: 16,
-          }}
-        >
-          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
+        {/* Right Side: Start Chatting */}
+        <div style={{ textAlign: 'center' }}>
+          {/* Centered Label */}
+          <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 14 }}>
             Start chatting:
           </div>
+
+          {/* Buttons */}
           <div
             style={{
               display: 'flex',
               gap: 12,
+              justifyContent: 'center',
               alignItems: 'center',
             }}
           >
