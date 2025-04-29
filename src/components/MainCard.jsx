@@ -132,7 +132,7 @@ function MainCard() {
               gap: 12,
               justifyContent: 'flex-start',
               alignItems: 'center',
-              marginTop: 0,
+              marginTop: '-10px',  // Move buttons upwards
             }}
           >
             <button
