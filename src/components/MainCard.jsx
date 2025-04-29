@@ -133,6 +133,8 @@ function MainCard() {
               justifyContent: 'center',
               alignItems: 'center',
               marginTop: 0,
+              marginLeft: 40, // shifts the buttons right
+
             }}
           >
             <button
