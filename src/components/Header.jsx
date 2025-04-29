@@ -36,7 +36,7 @@ function Header() {
               color: "#d2874f",
               letterSpacing: 1,
               position: "relative",
-              top: 13, // 👉 move "Online" slightly lower
+              top: 13,
             }}
           >
             Online
@@ -61,13 +61,12 @@ function Header() {
         </span>
       </div>
 
-      {/* Online Now and Log In */}
+      {/* Online Now */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
           marginRight: 20,
-          flexWrap: "wrap",
         }}
       >
         <span
@@ -89,23 +88,6 @@ function Header() {
         >
           online now
         </span>
-
-        <button
-          style={{
-            background: "#f9f6f2",
-            color: "#92634d",
-            fontWeight: 500,
-            border: "1px solid #dbc9b8",
-            padding: "7px 20px",
-            borderRadius: 5,
-            fontSize: 15,
-            cursor: "pointer",
-            boxShadow: "0 2px 9px -7px #444",
-            marginLeft: 12,
-          }}
-        >
-          Log in
-        </button>
       </div>
     </header>
   );
