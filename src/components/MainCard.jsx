@@ -82,15 +82,23 @@ function MainCard() {
       <div
         style={{
           display: 'flex',
-          alignItems: 'center',
+          alignItems: 'flex-start',
           justifyContent: 'center',
           flexWrap: 'wrap',
-          gap: '16px',
+          gap: '32px',
           margin: '20px 0',
         }}
       >
         {/* Left Side: Interest Input */}
-        <div style={{ textAlign: 'center' }}>
+        <div
+          style={{
+            backgroundColor: '#fff',
+            padding: '8px',
+            borderRadius: 8,
+            boxShadow: '0 0 4px rgba(0,0,0,0.05)',
+            textAlign: 'center',
+          }}
+        >
           <div style={{ fontSize: 18, fontWeight: 500, marginBottom: 8 }}>
             What do you wanna talk about?
           </div>
@@ -104,12 +112,19 @@ function MainCard() {
               width: 280,
               fontSize: 15,
               outline: 'none',
+              backgroundColor: '#fff',
+              color: '#000',
             }}
           />
         </div>
 
         {/* Right Side: Buttons */}
-        <div style={{ textAlign: 'center' }}>
+        <div
+          style={{
+            textAlign: 'left',
+            paddingLeft: 16,
+          }}
+        >
           <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
             Start chatting:
           </div>
@@ -117,7 +132,6 @@ function MainCard() {
             style={{
               display: 'flex',
               gap: 12,
-              justifyContent: 'center',
               alignItems: 'center',
             }}
           >
