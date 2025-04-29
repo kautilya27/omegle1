@@ -78,6 +78,83 @@ function MainCard() {
         This website is under construction and will be fully working by June.
       </div>
 
+            {/* Interest Input + Chat Buttons Section */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '16px',
+          margin: '20px 0',
+        }}
+      >
+        {/* Left Side: Interest Input */}
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: 18, fontWeight: 500, marginBottom: 8 }}>
+            What do you wanna talk about?
+          </div>
+          <input
+            type="text"
+            placeholder="Add your interests (optional)"
+            style={{
+              padding: '12px 16px',
+              border: '1px solid #ccc',
+              borderRadius: 6,
+              width: 280,
+              fontSize: 15,
+              outline: 'none',
+            }}
+          />
+        </div>
+
+        {/* Right Side: Buttons */}
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
+            Start chatting:
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              gap: 10,
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <button
+              style={{
+                background: 'linear-gradient(to bottom, #4db8ff, #007bff)',
+                color: '#fff',
+                padding: '10px 20px',
+                fontSize: 16,
+                fontWeight: 600,
+                border: 'none',
+                borderRadius: 6,
+                cursor: 'pointer',
+              }}
+            >
+              Text
+            </button>
+            <span style={{ fontSize: 16, fontWeight: 500 }}>or</span>
+            <button
+              style={{
+                background: 'linear-gradient(to bottom, #4db8ff, #007bff)',
+                color: '#fff',
+                padding: '10px 20px',
+                fontSize: 16,
+                fontWeight: 600,
+                border: 'none',
+                borderRadius: 6,
+                cursor: 'pointer',
+              }}
+            >
+              Video
+            </button>
+          </div>
+        </div>
+      </div>
+
+
       {/* Footer */}
       <footer
         style={{
