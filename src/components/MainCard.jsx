@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function MainCard() {
   return (
     <section
@@ -169,27 +169,27 @@ function MainCard() {
       </div>
 
       {/* Footer */}
-      <footer
-        style={{
-          color: "#aaa",
-          fontSize: 14,
-          textAlign: "center",
-          marginTop: 14,
-        }}
-      >
-        © 2025 Omegle Online ·{" "}
-        <a href="#" style={{ color: "#aaa" }}>
-          Terms of Service
-        </a>{" "}
-        ·{" "}
-        <a href="#" style={{ color: "#aaa" }}>
-          Privacy Policy
-        </a>{" "}
-        ·{" "}
-        <a href="#" style={{ color: "#aaa" }}>
-          Community Guidelines
-        </a>
-      </footer>
+     <footer
+  style={{
+    color: "#aaa",
+    fontSize: 14,
+    textAlign: "center",
+    marginTop: 14,
+  }}
+>
+  © 2025 Omegle Online ·{" "}
+  <Link to="/terms-of-service" style={{ color: "#aaa", textDecoration: "none" }}>
+    Terms of Service
+  </Link>{" "}
+  ·{" "}
+  <Link to="/privacy-policy" style={{ color: "#aaa", textDecoration: "none" }}>
+    Privacy Policy
+  </Link>{" "}
+  ·{" "}
+  <Link to="/community-guidelines" style={{ color: "#aaa", textDecoration: "none" }}>
+    Community Guidelines
+  </Link>
+</footer>
     </section>
   );
 }
