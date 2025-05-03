@@ -14,9 +14,9 @@ function Footer() {
       borderTop: '1px solid #e8e1da',
     }}>
       © 2025 omegleonline.com &nbsp;
-      <Link to="/terms-of-service" style={{color:'#92634d', margin: '0 4px'}}>Terms of Service</Link>·
-      <Link to="#" style={{color:'#92634d', margin: '0 4px'}}>Privacy Policy</Link>·
-      <Link to="#" style={{color:'#92634d', margin: '0 4px'}}>Community Guidelines</Link>
+      <Link to="/terms-of-service" style={{ color: '#92634d', margin: '0 4px' }}>Terms of Service</Link>·
+      <Link to="/privacy-policy" style={{ color: '#92634d', margin: '0 4px' }}>Privacy Policy</Link>·
+      <Link to="/community-guidelines" style={{ color: '#92634d', margin: '0 4px' }}>Community Guidelines</Link>
     </footer>
   );
 }
