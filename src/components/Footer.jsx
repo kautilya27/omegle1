@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,9 +14,9 @@ function Footer() {
       borderTop: '1px solid #e8e1da',
     }}>
       © 2025 omegleonline.com &nbsp;
-      <a href="/terms-of-service" style={{color:'#92634d',marginLeft:4,marginRight:4}}>Terms of Service</a>·
-      <a href="#" style={{color:'#92634d',marginLeft:4,marginRight:4}}>Privacy Policy</a>·
-      <a href="#" style={{color:'#92634d',marginLeft:4,marginRight:4}}>Community Guidelines</a>
+      <Link to="/terms-of-service" style={{color:'#92634d', margin: '0 4px'}}>Terms of Service</Link>·
+      <Link to="#" style={{color:'#92634d', margin: '0 4px'}}>Privacy Policy</Link>·
+      <Link to="#" style={{color:'#92634d', margin: '0 4px'}}>Community Guidelines</Link>
     </footer>
   );
 }
