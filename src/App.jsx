@@ -5,7 +5,9 @@ import FeaturesSection from './components/FeaturesSection';
 import FaqSection from './components/FaqSection';
 import Footer from './components/Footer';
 import TermsOfService from './components/TermsOfService';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+//import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+
 
 function App() {
   const location = useLocation();
