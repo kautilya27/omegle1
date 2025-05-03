@@ -7,15 +7,20 @@ import FeaturesSection from './components/FeaturesSection';
 import FaqSection from './components/FaqSection';
 import Footer from './components/Footer';
 import TermsOfService from './components/TermsOfService';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import CommunityGuidelines from './components/CommunityGuidelines';
 
-// Layout component to handle conditional rendering based on route
 function Layout() {
   const location = useLocation();
-  const isTermsPage = location.pathname === '/terms-of-service';
+  const isSpecialPage = [
+    '/terms-of-service',
+    '/privacy-policy',
+    '/community-guidelines',
+  ].includes(location.pathname);
 
   return (
     <div style={{ backgroundColor: '#f9f6f2', minHeight: '100vh' }}>
-      {!isTermsPage && <Header />}
+      {!isSpecialPage && <Header />}
       <main>
         <Routes>
           <Route path="/" element={
@@ -27,9 +32,11 @@ function Layout() {
             </>
           } />
           <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/community-guidelines" element={<CommunityGuidelines />} />
         </Routes>
       </main>
-      {!isTermsPage && <Footer />}
+      {!isSpecialPage && <Footer />}
     </div>
   );
 }
