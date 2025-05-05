@@ -42,7 +42,7 @@ function PrivacyPolicy() {
 
       <h2>6. User Rights</h2>
       <p>
-        You have the right to request data deletion or inquire about any data collected. Contact us at <a href="mailto:support@omegleonline.com">support@omegleonline.com</a>.
+        You have the right to request data deletion or inquire about any data collected. Contact us at <a href="mailto:knewspaper.in@gmail.com">support@omegleonline.com</a>.
       </p>
 
       <h2>7. Policy Updates</h2>
