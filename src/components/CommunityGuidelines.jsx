@@ -38,7 +38,7 @@ function CommunityGuidelines() {
 
       <h2>5. Reporting Violations</h2>
       <p>
-        If you encounter a user violating our guidelines, please use the "Report" button or contact <a href="mailto:abuse@omegleonline.com">abuse@omegleonline.com</a>.
+        If you encounter a user violating our guidelines, please use the "Report" button or contact <a href="mailto:knewspaper.in@gmail.com">abuse@omegleonline.com</a>.
       </p>
 
       <h2>6. Consequences</h2>
